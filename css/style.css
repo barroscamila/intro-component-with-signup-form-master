@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(../images/bg-intro-desktop.png);
+}
+
+.container {
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.container01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 60vh;
+  color: white;
+  width: 40vw;
+}
+.container01 .h1 {
+  font-weight: 700;
+}
+.container01 p {
+  font-size: 1em;
+}
+
+.container02 {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 40vw;
+}
+
+.freeTrial {
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.175);
+}
+
+.formContainer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px rgba(0, 0, 0, 0.175);
+}
+.formContainer .formInput {
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+}
+.formContainer .submitBtn {
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  box-shadow: 0px 5px hsla(154, 68%, 32%, 0.738);
+}
+.formContainer .submitBtn:hover {
+  text-decoration: underline;
+}
+.formContainer p {
+  font-size: 0.9em;
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+}
+.formContainer p .termAndServices {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+.formContainer p .termAndServices:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer {
+  height: 5vh;
+  color: white;
+  font-size: 0.8em;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
