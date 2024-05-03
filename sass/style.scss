@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    padding-top: 10vh;
     column-gap: 20px;
 }
 
@@ -23,9 +23,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    height: 60vh; 
+    height: 80vh; 
     color: white;
-    width: 40vw;
+    width: 35vw;
 
     .h1 {
         font-weight: 700;
@@ -34,17 +34,13 @@ body {
     p {
         font-size: 1em;
     }
-
-    // background-color: rgb(109, 109, 109);
 }
 
 .container02 {
     display: flex;
     flex-direction: column;
-    height: 60vh;
-    width: 40vw;
-
-    // background-color: rgb(109, 109, 109);
+    height: 80vh;
+    width: 35vw;
 }
 
 .freeTrial {
@@ -55,6 +51,7 @@ body {
 }
 
 .formContainer {
+    height: 400px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 8px rgba(0, 0, 0, 0.175);
@@ -62,6 +59,7 @@ body {
     .formInput {
         color: $dark-color;
         font-weight: 600;
+        font-size: 0.8em;
     }
 
     .submitBtn {
@@ -78,7 +76,7 @@ body {
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 0.7em;
         color: $light-color;
         font-weight: 400;
 
@@ -109,3 +107,5 @@ body {
         text-decoration: underline;
     }
 }
+
+// Media Query
