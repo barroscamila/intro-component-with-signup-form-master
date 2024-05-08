@@ -16,11 +16,6 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
-  <!-- 
-    FALTANDO:
-      - MEDIA QUERY MOBILE
-      - VALIDACAO JS
-   -->
   <div class="container">
     <div class="container01 p-3">
       <h1 class="h1">Learn to code by <br> watching others</h1>
@@ -35,10 +30,10 @@
 
       <div class="formContainer mt-4 p-4">
         <form action="#">
-          <input type="text" class="form-control formInput py-3 px-4" placeholder="Fist Name"></input>
-          <input type="text" class="form-control formInput mt-2 py-3 px-4" placeholder="Last Name"></input>
-          <input type="email" class="form-control formInput mt-2 py-3 px-4" placeholder="Email Address"></input>
-          <input type="password" class="form-control formInput mt-2 py-3 px-4" placeholder="Password"></input>
+          <input type="text" class="form-control formInput py-3 px-4" id="name" placeholder="Fist Name" required></input>
+          <input type="text" class="form-control formInput mt-2 py-3 px-4" id="lastName" placeholder="Last Name" required></input>
+          <input type="email" class="form-control formInput mt-2 py-3 px-4" id="email" placeholder="Email Address" required></input>
+          <input type="password" class="form-control formInput mt-2 py-3 px-4" id="password" placeholder="Password" required></input>
           <button type="submit" class="btn submitBtn p-2 mt-3">CLAIM YOUR FREE TRAIL</button>
         </form>
         <p class="mt-3 text-center">By clicking the button, you are agreeing to our <span class="termAndServices">Terms and Services</span></p>
@@ -52,5 +47,7 @@
       Coded by <a href="https://www.linkedin.com/in/camilagdebarros/" target="_blank">Camila Barros</a>.
     </p>
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
